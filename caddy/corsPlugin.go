@@ -8,8 +8,8 @@ import (
 
 	"github.com/captncraig/cors"
 
-	"github.com/caddyserver/caddy"
-	"github.com/caddyserver/caddy/caddyhttp/httpserver"
+	"caddy"
+	"caddy/caddyhttp/httpserver"
 )
 
 type corsRule struct {
